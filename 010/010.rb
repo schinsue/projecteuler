@@ -11,4 +11,5 @@ Prime.each(threshold) do |prime|
   prime_collection << prime
 end
 
+# Sum all values in array and put result on screen
 p prime_collection.inject(:+)
