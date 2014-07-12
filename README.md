@@ -14,4 +14,4 @@ Current languages
 Additional notes
 --------------
 
-Ruby: I'm using the styleguide as provided on: https://github.com/bbatsov/ruby-style-guide
+**Ruby**: I'm using the styleguide as provided on: https://github.com/bbatsov/ruby-style-guide
