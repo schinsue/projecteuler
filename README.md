@@ -9,4 +9,4 @@ Learn new programming languages by doing and solving puzzles in the most efficie
 Current languages
 --------------
 
-- **Ruby v2.0.0p481**
+- **Ruby (v2.0.0p481)**
