@@ -10,3 +10,8 @@ Current languages
 --------------
 
 - **Ruby (v2.0.0p481)**
+
+Additional notes
+--------------
+
+Ruby: I'm using the styleguide as provided on: https://github.com/bbatsov/ruby-style-guide
