@@ -1,6 +1,6 @@
-Solving the puzzles of projecteuler.net in different languages
+Solving the puzzles of projecteuler.net
 ==============
-I will try to solve as much puzzles as I can
+I will try to solve as much puzzles as I can in different languages
 
 Goal
 --------------
