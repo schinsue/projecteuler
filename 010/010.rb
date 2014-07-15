@@ -8,10 +8,12 @@ require 'Prime'
 # The prime numbers shouldn't pass this number
 threshold = 2_000_000 
 
-prime_collection = Array.new
+prime_collection = []
 
 Prime.each(threshold) do |prime|
   prime_collection << prime
+  # Add supression to console, so the script is done in 2 secs instead of 2 mins :)
+  ; nil
 end
 
 # Sum all values in array and put result on screen
