@@ -1,5 +1,8 @@
 # Solution 010
-# 	Slow alghoritm, need to improve
+
+# The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+# Find the sum of all the primes below two million.
+
 require 'Prime'
 
 # The prime numbers shouldn't pass this number
@@ -12,4 +15,4 @@ Prime.each(threshold) do |prime|
 end
 
 # Sum all values in array and put result on screen
-p prime_collection.inject(:+)
+puts prime_collection.inject(:+)

@@ -12,5 +12,5 @@
 
 range = (1..100)
 
-p (range.inject(:+) ** 2) - range.inject {|sum, item| sum + item ** 2 }
+puts (range.inject(:+) ** 2) - range.inject {|sum, item| sum + item ** 2 }
 
