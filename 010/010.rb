@@ -6,7 +6,7 @@
 require 'Prime'
 
 # The prime numbers shouldn't pass this number
-threshold = 2_000_000 
+threshold = 2_000_000
 
 prime_collection = []
 
