@@ -4,22 +4,22 @@
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
 class Integer
-	def palindrome?
-		string = self.to_s
-		return string == string.reverse
-	end
+  def palindrome?
+    string = self.to_s
+    return string == string.reverse
+  end
 end
 
 highest = 0
 
 (100..999).each do |a|
-	(a..999).each do |b|
-		current = a * b
+  (a..999).each do |b|
+    current = a * b
 
-		if current.palindrome? && current > highest
-			highest = current
-		end
-	end
+    if current.palindrome? && current > highest
+      highest = current
+    end
+  end
 end
 
 puts highest
