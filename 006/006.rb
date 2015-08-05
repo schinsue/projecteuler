@@ -10,6 +10,9 @@
 
 # Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
+timer_start = Time.now
+
 range = (1..100)
 
 puts (range.inject(:+) ** 2) - range.inject {|sum, item| sum + item ** 2 }
+puts "Elapsed Time: #{(Time.now - timer_start)*1000} milliseconds"

@@ -5,6 +5,8 @@
 
 require 'Prime'
 
+timer_start = Time.now
+
 # The prime numbers shouldn't pass this number
 threshold = 2_000_000
 
@@ -18,3 +20,4 @@ end
 
 # Sum all values in array and put result on screen
 puts prime_collection.inject(:+)
+puts "Elapsed Time: #{(Time.now - timer_start)*1000} milliseconds"

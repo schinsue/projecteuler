@@ -5,4 +5,7 @@
 
 require 'Prime'
 
+timer_start = Time.now
+
 puts Prime.instance.prime_division(600851475143)
+puts "Elapsed Time: #{(Time.now - timer_start)*1000} milliseconds"

@@ -3,6 +3,8 @@
 # A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
+timer_start = Time.now
+
 class Integer
   def palindrome?
     string = self.to_s
@@ -23,3 +25,4 @@ highest = 0
 end
 
 puts highest
+puts "Elapsed Time: #{(Time.now - timer_start)*1000} milliseconds"
