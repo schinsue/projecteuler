@@ -6,8 +6,7 @@
 
 timer_start = Time.now
 
-number = 2 ** 1000
-sum = number.to_s.chars.map(&:to_i).inject(:+)
+sum = (2**1000).to_s.chars.map(&:to_i).reduce(:+)
 
 puts "The sum of the digits that come out of the number 2**1000 is #{sum}"
 puts "Elapsed Time: #{(Time.now - timer_start)*1000} milliseconds"
